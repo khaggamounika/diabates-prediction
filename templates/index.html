@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Diabetes Prediction System
+        </title>
+    </head>
+    <body>
+        <form action="/predict" method="POST">
+            <label>Enter Pregnancies:</label>
+            <input type="text" name="P" /><br/>
+            <label>Enter Glucose:</label>
+            <input type="text" name="G" /><br/>
+            <label>Enter BloodPressure:</label>
+            <input type="text" name="B" /><br/>
+            <label>Enter SkinThickness:</label>
+            <input type="text" name="S" /><br/>
+            <label>Enter Insulin:</label>
+            <input type="text" name="I" /><br/>
+            <label>Enter BMI:</label>
+            <input type="text" name="BM" /><br/>
+            <label>Enter DiabetesPredigreeFunction:</label>
+            <input type="text" name="D" /><br/>
+            <label>Enter Age:</label>
+            <input type="text" name="A"/><br/>
+            <input type="submit" />
+            {{result}}
+        </form>
+    </body>
+</html>
